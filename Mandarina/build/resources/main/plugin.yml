@@ -1,0 +1,4 @@
+name: Mandarina
+version: '1.0'
+main: org.tomasa.mandarina.Mandarina
+api-version: '1.21'
