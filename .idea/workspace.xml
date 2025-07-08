@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05dbbc52-510f-4a4e-afdc-0e592243c251" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/teleportCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/Mandarina.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/Mandarina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/InfoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/deathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/deathCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/utils/messageutil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/utils/messageutil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +49,13 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\IdeaProjects\Mandarina\mandarinaPl\Mandarina\src\main\java\org\tomasa\mandarina" />
+      <recent name="C:\Users\USUARIO\IdeaProjects\Mandarina\mandarinaPl\Mandarina\src\main\java\org\tomasa" />
+      <recent name="C:\Users\USUARIO\IdeaProjects\Mandarina\mandarinaPl\Mandarina\src\main\java\org" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="05dbbc52-510f-4a4e-afdc-0e592243c251" name="Changes" comment="" />

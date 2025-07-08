@@ -1,4 +1,4 @@
-package utils;
+package org.tomasa.mandarina.utils;
 import org.bukkit.ChatColor;
 public class messageutil {
 

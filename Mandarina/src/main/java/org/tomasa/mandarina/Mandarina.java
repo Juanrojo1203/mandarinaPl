@@ -1,9 +1,11 @@
 package org.tomasa.mandarina;
 
-import commands.InfoCommand;
+import org.tomasa.mandarina.commands.CordCommand;
+import org.tomasa.mandarina.commands.InfoCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.tomasa.mandarina.commands.deathCommand;
 
 import java.util.Objects;
 
@@ -23,8 +25,9 @@ public final class Mandarina extends JavaPlugin {
     }
 
     private void registerCommands() {
-        Objects.requireNonNull(this.getCommand("mandarina")).setExecutor(new InfoCommand());
-        objects.requireNonNull(this.getCommand("muerte")).setExecutor(new deathCommand());
+        Objects.requireNonNull(this.getCommand("mandarina")).setExecutor(new InfoCommand(this));
+        Objects.requireNonNull(this.getCommand("muerte")).setExecutor(new deathCommand());
+        Objects.requireNonNull(this.getCommand("cords")).setExecutor(new CordCommand());
     }
 
     @Override

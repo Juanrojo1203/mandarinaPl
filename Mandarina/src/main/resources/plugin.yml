@@ -18,3 +18,9 @@ commands:
     aliases:
       - death
       - muertes
+  cords:
+    description: Comando de coordenadas
+    aliases:
+      - cord
+      - coordenadas
+      - cords
