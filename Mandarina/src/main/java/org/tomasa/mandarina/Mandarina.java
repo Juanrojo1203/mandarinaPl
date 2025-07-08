@@ -24,6 +24,7 @@ public final class Mandarina extends JavaPlugin {
 
     private void registerCommands() {
         Objects.requireNonNull(this.getCommand("mandarina")).setExecutor(new InfoCommand());
+        objects.requireNonNull(this.getCommand("muerte")).setExecutor(new deathCommand());
     }
 
     @Override
