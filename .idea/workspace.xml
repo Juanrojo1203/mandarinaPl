@@ -5,20 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05dbbc52-510f-4a4e-afdc-0e592243c251" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/teleportCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/PlayerVaultCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mandarinaPl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mandarinaPl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/Mandarina.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/Mandarina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/InfoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/deathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/deathCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/utils/messageutil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/utils/messageutil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/build/classes/java/main/org/tomasa/mandarina/Mandarina.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/build/classes/java/main/org/tomasa/mandarina/Mandarina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Mandarina">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Mandarina">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mandarina" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mandarina" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mandarina" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mandarina" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mandarina" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mandarina" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mandarina" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="io.papermc.paper:paper-api:1.21.6-R0.1-SNAPSHOT" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -30,7 +104,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Juanrojo1203/mandarinaPl.git&quot;,
-    &quot;accountId&quot;: &quot;c00a6170-27fe-48c3-b176-88ea1acf2f93&quot;
+    &quot;accountId&quot;: &quot;4029d5b5-f62f-4a4f-ab4b-b8fb734faa8a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -43,10 +117,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Mandarina [build].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+    &quot;git-widget-placeholder&quot;: &quot;feat-player-vault&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wilde/plmandarina/mandarinaPl&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -56,6 +136,36 @@
       <recent name="C:\Users\USUARIO\IdeaProjects\Mandarina\mandarinaPl\Mandarina\src\main\java\org" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Mandarina [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Mandarina" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Mandarina [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="05dbbc52-510f-4a4e-afdc-0e592243c251" name="Changes" comment="" />
@@ -65,5 +175,16 @@
       <updated>1751954920043</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

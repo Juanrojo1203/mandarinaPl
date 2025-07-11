@@ -2,3 +2,25 @@ name: Mandarina
 version: '1.0'
 main: org.tomasa.mandarina.Mandarina
 api-version: '1.21'
+
+commands:
+  mandarina:
+    description: Comando de informcion del plugin
+    aliases:
+      - m
+      - mand
+      - mandar
+      - mandarin
+      - mandarinaplugin
+      - mp
+  muerte:
+    description: Comando de muerte
+    aliases:
+      - death
+      - muertes
+  cords:
+    description: Comando de coordenadas
+    aliases:
+      - cord
+      - coordenadas
+      - cords
