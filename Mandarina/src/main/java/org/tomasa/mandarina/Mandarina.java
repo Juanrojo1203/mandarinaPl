@@ -28,6 +28,9 @@ public final class Mandarina extends JavaPlugin {
         Objects.requireNonNull(this.getCommand("mandarina")).setExecutor(new InfoCommand(this));
         Objects.requireNonNull(this.getCommand("muerte")).setExecutor(new deathCommand());
         Objects.requireNonNull(this.getCommand("cords")).setExecutor(new CordCommand());
+        Objects.requireNonNull(this.getCommand("cord")).setExecutor(new CordCommand());
+        Objects.requireNonNull(this.getCommand("tp")).setExecutor(new org.tomasa.mandarina.commands.tpCommand());
+        Objects.requireNonNull(this.getCommand("s")).setExecutor(new org.tomasa.mandarina.commands.sCommand());
     }
 
     @Override

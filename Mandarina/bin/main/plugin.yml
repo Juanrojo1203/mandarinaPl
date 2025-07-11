@@ -24,3 +24,14 @@ commands:
       - cord
       - coordenadas
       - cords
+  tp:
+  description: Comando de teletransporte
+    aliases:
+      - teleport
+      - tport
+      - teleportar
+  s:
+    description: Comando el cual funciona para teletransportar un jugador hacia ti
+    aliases:
+    - tpahere
+    - comehere
