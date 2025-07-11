@@ -24,3 +24,6 @@ commands:
       - cord
       - coordenadas
       - cords
+  vault:
+    decription: Guarda tus items en tu botso.
+    usage: /vault open 
