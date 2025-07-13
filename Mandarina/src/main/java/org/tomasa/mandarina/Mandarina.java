@@ -3,6 +3,7 @@ package org.tomasa.mandarina;
 import org.tomasa.mandarina.commands.CordCommand;
 import org.tomasa.mandarina.commands.InfoCommand;
 import org.tomasa.mandarina.commands.PlayerVaultCommand;
+import org.tomasa.mandarina.commands.sCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -33,6 +34,7 @@ public final class Mandarina extends JavaPlugin {
         Objects.requireNonNull(this.getCommand("muerte")).setExecutor(new deathCommand());
         Objects.requireNonNull(this.getCommand("cords")).setExecutor(new CordCommand());
         Objects.requireNonNull(this.getCommand("vault")).setExecutor(new PlayerVaultCommand(this));
+        Objects.requireNonNull(this.getCommand("s")).setExecutor(new sCommand());
         getServer().getPluginManager().registerEvents(new VaultListener(), this);
     }
 
