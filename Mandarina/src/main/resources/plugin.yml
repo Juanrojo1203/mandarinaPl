@@ -25,7 +25,7 @@ commands:
       - coordenadas
       - cords
   tp:
-  description: Comando de teletransporte
+    description: Comando de teletransporte
     aliases:
       - teleport
       - tport
