@@ -11,8 +11,6 @@ public class sCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
-
-        Player player = (Player) sender;
         // Check if sender is a player
         if (!(sender instanceof Player)) {
             sender.sendMessage(messageutil.getColoredMessage("&cEste comando solo puede ser usado por jugadores."));

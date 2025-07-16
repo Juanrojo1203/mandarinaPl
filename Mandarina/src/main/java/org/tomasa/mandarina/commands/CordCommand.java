@@ -11,13 +11,18 @@ public class CordCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String @NotNull [] args) {
+        // Check if sender is a player
+        if (!(sender instanceof Player)) {
+            sender.sendMessage(messageutil.getColoredMessage("&cEste comando solo puede ser usado por jugadores."));
+            return true;
+        }
 
         Player player = (Player) sender;
-        if (sender instanceof Player) {
-        player.sendMessage(messageutil.getColoredMessage("&cTus coordenadas son: &r&6&lX=" + player.getLocation().getBlockX() + " Y=" + player.getLocation().getBlockY() + " Z=" + player.getLocation().getBlockZ()));
+        player.sendMessage(messageutil.getColoredMessage("&fTus coordenadas son: &6&lX=" +
+            player.getLocation().getBlockX() + " Y=" +
+            player.getLocation().getBlockY() + " Z=" +
+            player.getLocation().getBlockZ()));
 
-        return false;
-    }
-        return false;
+        return true;
     }
 }

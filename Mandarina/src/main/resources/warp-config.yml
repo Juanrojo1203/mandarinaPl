@@ -1,0 +1,80 @@
+# Configuración del sistema de warps
+# Configuration for the warp system
+
+# Configuración de guardado automático
+# Auto-save configuration
+auto-save:
+  # Intervalo en minutos para el guardado automático (por defecto: 5 minutos)
+  # Interval in minutes for auto-save (default: 5 minutes)
+  interval-minutes: 5
+  
+  # Guardar cuando un jugador se desconecta
+  # Save when a player disconnects
+  save-on-player-quit: true
+  
+  # Guardar cuando el mundo se guarda
+  # Save when world saves
+  save-on-world-save: true
+
+# Configuración de respaldos
+# Backup configuration
+backup:
+  # Crear respaldos automáticos antes de guardar
+  # Create automatic backups before saving
+  enabled: true
+  
+  # Número máximo de respaldos a mantener
+  # Maximum number of backups to keep
+  max-backups: 10
+  
+  # Crear respaldo al iniciar el servidor
+  # Create backup on server start
+  backup-on-startup: true
+
+# Configuración de compartir warps
+# Warp sharing configuration
+sharing:
+  # Tiempo en segundos para que expire una solicitud de compartir
+  # Time in seconds for a share request to expire
+  request-timeout-seconds: 10
+  
+  # Distancia máxima para detectar jugadores con ray tracing
+  # Maximum distance for ray tracing player detection
+  max-detection-distance: 5.0
+
+# Configuración de límites
+# Limits configuration
+limits:
+  # Número máximo de warps por jugador (0 = sin límite)
+  # Maximum warps per player (0 = no limit)
+  max-warps-per-player: 0
+  
+  # Longitud máxima del nombre de un warp
+  # Maximum length of warp name
+  max-warp-name-length: 32
+
+# Configuración de mensajes
+# Messages configuration
+messages:
+  # Prefijo para todos los mensajes del sistema de warps
+  # Prefix for all warp system messages
+  prefix: "&8[&6Warps&8]&r "
+  
+  # Usar colores en los mensajes
+  # Use colors in messages
+  use-colors: true
+
+# Configuración de logging
+# Logging configuration
+logging:
+  # Nivel de logging (INFO, FINE, WARNING, SEVERE)
+  # Logging level (INFO, FINE, WARNING, SEVERE)
+  level: "INFO"
+  
+  # Registrar operaciones de guardado
+  # Log save operations
+  log-saves: false
+  
+  # Registrar operaciones de carga
+  # Log load operations
+  log-loads: true

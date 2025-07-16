@@ -1,0 +1,60 @@
+# Ejemplo de cómo se ve el archivo warps.yml con datos guardados
+# Example of how the warps.yml file looks with saved data
+
+# UUID del jugador 1
+550e8400-e29b-41d4-a716-446655440000:
+  casa:
+    world: world
+    x: 100.5
+    y: 64.0
+    z: 200.3
+    yaw: 90.0
+    pitch: 0.0
+  mina:
+    world: world
+    x: -50.2
+    y: 12.0
+    z: 150.7
+    yaw: 180.0
+    pitch: -10.0
+  granja:
+    world: world
+    x: 300.0
+    y: 70.0
+    z: -100.0
+    yaw: 0.0
+    pitch: 0.0
+
+# UUID del jugador 2
+6ba7b810-9dad-11d1-80b4-00c04fd430c8:
+  spawn:
+    world: world
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  castillo:
+    world: world
+    x: 500.0
+    y: 100.0
+    z: 500.0
+    yaw: 45.0
+    pitch: 0.0
+  nether_portal:
+    world: world_nether
+    x: 62.5
+    y: 64.0
+    z: 62.5
+    yaw: 270.0
+    pitch: 0.0
+
+# UUID del jugador 3
+6ba7b811-9dad-11d1-80b4-00c04fd430c8:
+  tienda:
+    world: world
+    x: 250.0
+    y: 64.0
+    z: 250.0
+    yaw: 135.0
+    pitch: 0.0

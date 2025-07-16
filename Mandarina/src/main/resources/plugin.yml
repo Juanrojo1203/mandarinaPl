@@ -25,5 +25,24 @@ commands:
       - coordenadas
       - cords
   vault:
-    decription: Guarda tus items en tu botso.
-    usage: /vault open 
+    description: Guarda tus items en tu bolso.
+    usage: /vault
+    aliases:
+      - pv
+      - botso
+      - bolso
+  tp:
+    description: Comando de teletransporte
+    aliases:
+      - teleport
+      - tport
+      - teleportar
+  s:
+    description: Comando el cual funciona para teletransportar un jugador hacia ti
+    aliases:
+      - tpahere
+      - comehere
+  warp:
+    description: Sistema de warps personales
+    aliases:
+      - warps

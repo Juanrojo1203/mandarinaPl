@@ -17,12 +17,11 @@ public class InfoCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender,@NotNull Command command,@NotNull String label,@NotNull String @NotNull [] args) {
-        Player player = (Player) sender;
 
-        if (sender instanceof Player) {
-            player.sendMessage(messageutil.getColoredMessage(plugin.prefix + " &c La version es: " + plugin.version+"\n &c Desarrollado por: &6 Tomasa"));
-            return true;
-    }
-        return false;
+        Player player = (Player) sender;
+        player.sendMessage(messageutil.getColoredMessage(plugin.prefix + " &fLa version es: &b" + plugin.version));
+        player.sendMessage(messageutil.getColoredMessage(plugin.prefix + " &fDesarrollado por: &6Tomasa"));
+
+        return true;
     }
 }
