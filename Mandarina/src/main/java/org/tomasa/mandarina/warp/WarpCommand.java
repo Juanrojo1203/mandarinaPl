@@ -256,7 +256,7 @@ public class WarpCommand implements CommandExecutor, TabCompleter {
 
         if (args.length == 1) {
             // First argument: only subcommands (no direct warp names)
-            List<String> completions = Arrays.asList("create", "delete", "list", "tp", "teleport", "share", "help");
+            List<String> completions = Arrays.asList("create", "delete", "list", "tp", "share", "help");
 
             return completions.stream()
                 .filter(s -> s.toLowerCase().startsWith(args[0].toLowerCase()))

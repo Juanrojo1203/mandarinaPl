@@ -28,12 +28,11 @@ public class PlayerVaultCommand implements CommandExecutor {
         Inventory vault = Bukkit.createInventory(new VaultHolder(), vaultSize, "Tu botso");
 
         var items = VaultUtils.getItems(player);
+
         for (int i = 0; i < items.size(); i++) {
             vault.setItem(i, items.get(i));
         }
-
         player.openInventory(vault);
-
         return true;
     }
 }

@@ -120,11 +120,11 @@ public class WarpManager {
     public boolean createWarp(Player player, String warpName, Location location) {
         String playerUUID = player.getUniqueId().toString();
         String path = playerUUID + "." + warpName;
-        
+
         if (warpsConfig.contains(path)) {
             return false; // Warp already exists
         }
-        
+
         // Serialize location
         ConfigurationSection warpSection = warpsConfig.createSection(path);
         warpSection.set("world", location.getWorld().getName());
@@ -133,7 +133,7 @@ public class WarpManager {
         warpSection.set("z", location.getZ());
         warpSection.set("yaw", location.getYaw());
         warpSection.set("pitch", location.getPitch());
-        
+
         hasUnsavedChanges = true;
         saveWarps();
         return true;
@@ -149,11 +149,11 @@ public class WarpManager {
     public boolean deleteWarp(Player player, String warpName) {
         String playerUUID = player.getUniqueId().toString();
         String path = playerUUID + "." + warpName;
-        
+
         if (!warpsConfig.contains(path)) {
             return false; // Warp doesn't exist
         }
-        
+
         warpsConfig.set(path, null);
         hasUnsavedChanges = true;
         saveWarps();
@@ -191,18 +191,18 @@ public class WarpManager {
         if (!warpsConfig.contains(path)) {
             return null;
         }
-        
+
         ConfigurationSection warpSection = warpsConfig.getConfigurationSection(path);
         if (warpSection == null) {
             return null;
         }
-        
+
         String worldName = warpSection.getString("world");
         World world = Bukkit.getWorld(worldName);
         if (world == null) {
             return null; // World doesn't exist
         }
-        
+
         double x = warpSection.getDouble("x");
         double y = warpSection.getDouble("y");
         double z = warpSection.getDouble("z");

@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05dbbc52-510f-4a4e-afdc-0e592243c251" name="Changes" comment="Fix Gradle dependencies">
-      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/ShareRequestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/WarpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/WarpListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/WarpManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mandarina/src/main/resources/warp-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mandarina/warps-example.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AugmentWebviewStateStore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AugmentWebviewStateStore.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/build/classes/java/main/org/tomasa/mandarina/Mandarina.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/build/classes/java/main/org/tomasa/mandarina/Mandarina.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/build/resources/main/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/Mandarina.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/Mandarina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/CordCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/CordCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/InfoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/PlayerVaultCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/PlayerVaultCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/deathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/deathCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/sCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/sCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/tpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/commands/tpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/listeners/VaultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/listeners/VaultListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/WarpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/WarpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/WarpManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/java/org/tomasa/mandarina/warp/WarpManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandarina/src/main/resources/warp-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Mandarina/src/main/resources/warp-config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752199606658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix Gradle dependencies">
+      <option name="closed" value="true" />
+      <created>1752641988401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752641988401</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

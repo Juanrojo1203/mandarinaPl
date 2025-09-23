@@ -21,11 +21,11 @@ auto-save:
 backup:
   # Crear respaldos automáticos antes de guardar
   # Create automatic backups before saving
-  enabled: true
+  enabled: false
   
   # Número máximo de respaldos a mantener
   # Maximum number of backups to keep
-  max-backups: 10
+  max-backups: 2
   
   # Crear respaldo al iniciar el servidor
   # Create backup on server start

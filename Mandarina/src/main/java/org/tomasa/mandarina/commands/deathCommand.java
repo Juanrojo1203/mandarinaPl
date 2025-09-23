@@ -36,6 +36,8 @@ public class deathCommand implements CommandExecutor {
 
         String subCommand = args[0].toLowerCase();
 
+
+        if (args.length > 0 ) {
         switch (subCommand) {
             case "cord":
             case "coords":
@@ -63,7 +65,7 @@ public class deathCommand implements CommandExecutor {
             default:
                 player.sendMessage(messageutil.getColoredMessage("&cComando desconocido. Usa &6/muerte help&c para ver los comandos disponibles."));
                 break;
-        }
+        }}
 
         return true;
     }
